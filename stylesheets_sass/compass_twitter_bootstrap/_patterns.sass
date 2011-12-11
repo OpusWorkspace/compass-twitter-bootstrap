@@ -565,7 +565,9 @@ input[type=submit].btn
   padding: 7px 15px
   margin-bottom: $baseline
   color: $grayDark
-  +gradientBar(#fceec1, #eedc94)
+  // +gradientBar(#fceec1, #eedc94)
+  +gradientBar(#f5f5f5, #E1E1E1)
+  
   // warning by default
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
   border-width: 1px
@@ -600,10 +602,12 @@ input[type=submit].btn
     +box-shadow(0 1px 0 rgba(255, 255, 255, 0.25))
   &.block-message
     background-image: none
-    background-color: lighten(#fceec1, 5%)
+    // background-color: lighten(#fceec1, 5%)
+    background-color: #F5F5F5
     +reset-filter
     padding: 14px
-    border-color: #fceec1
+    // border-color: #fceec1
+    border-color: #F5F5F5
     +box-shadow(none)
     ul, p
       margin-right: 30px
